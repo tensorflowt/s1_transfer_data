@@ -1,0 +1,10 @@
+%YAML:1.0
+
+### Global model param
+NET_DEPLOY: "None"
+NET_MODEL: "yolov5s.engine"
+NET_IN_W: 640 
+NET_IN_H: 640
+LABEL_MAP: "label.txt"
+NMS_THRESH: 0.3
+CONF_THRESH: 0.72

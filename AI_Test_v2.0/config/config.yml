@@ -1,0 +1,13 @@
+%YAML:1.0
+
+### Global model param
+NET_DEPLOY: "None"
+NET_MODEL: "best_x_sunqt_1225_640x640x1.engine"
+NET_IN_W: 640 
+NET_IN_H: 640
+CLASS_NUM: 1
+LABEL_MAP: "label.txt"
+WTS_FILE: "best_x_sunqt_1225_640x640x1.wts"
+NMS_THRESH: 0.3
+CONF_THRESH: 0.72
+DET_INFO: "det_info.txt"
